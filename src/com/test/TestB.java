@@ -48,7 +48,7 @@ public class TestB {
 	@AfterClass
 	public void tearDown() {
 		if(driver!=null) {
-			System.out.println("Closing chrome browser");
+			System.out.println("Closing chrome browser"); //aditya 
 			driver.quit();
 		}
 	}
