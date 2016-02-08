@@ -16,8 +16,8 @@ public class Browser {
 		
 		case 1:
 			
-			System.out.println("in switch case 1");
-			return	driver = new FirefoxDriver();
+			System.out.println("in switch case 1"); //sysout
+			return	driver = new FirefoxDriver(); //creating new firefox driver
 			
 		case 2:
 			System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
