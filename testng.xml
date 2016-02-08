@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <suite name="Main Test Suite" parallel="tests" verbose="1">
+    <test name="Grid chrome Test1">
+     <parameter name="browser" value="ie"/> 
+        <classes>
+        <class name="com.test.TestA"/>
+        </classes>
+    </test>
+    <test name="Grid firefox Test2">
+    <parameter name="browser" value="firefox"/>
+        <classes>
+        <class name="com.test.TestB"/>
+        </classes>
+    </test>
+    <test name="Grid IE Test3">
+    <parameter name="browser" value="Internet Explorer"/>
+        <classes>
+        <class name="com.test.TestC"/>
+        </classes>
+    </test>
+    
+</suite>  -->
+
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+<suite name="Main Test Suite" parallel="classes" verbose="2">
+
+    <test name="TestNG Test Group">
+       <classes>
+        <class name="com.test.TestA"/>
+        <class name="com.test.TestB"/>
+        <class name="com.test.TestC"/>
+        </classes>   
+      <!-- <packages>
+        <package name="com.test"/>
+        </packages>-->
+    </test>
+     
+</suite> 
