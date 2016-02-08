@@ -29,7 +29,7 @@ public class TestB {
 		
 		String ip = InetAddress.getLocalHost().getHostAddress();
 		
-		System.out.println(ip);
+		System.out.println(ip); //aditya
 		
 		
 		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
